@@ -47,7 +47,7 @@ class EnvConfigurationSource(ConfigurationSource):
             return int(raw)
 
     def token(self) -> Optional[str]:
-        return self.get_raw('TOKEN')
+        return self.get_raw('7326275973:AAHFaCzgvLEPskfymN4EEHc9RuMW43y_eTI')
 
     def webhook_url(self) -> Optional[str]:
         return self.get_raw('WEBHOOK_URL')
